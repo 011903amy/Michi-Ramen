@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+     <!-- HEADER -->
+     <header class="header bg-footer relative">
+        <div class="container">
+            <div class="header__wrapper flex flex-col gap-6 pt-5  lg:flex lg:flex-row lg gap-[6rem]:lg:justify-between lg:items-center lg:pt-5 lg:px-5 lg:block">
+                <div class="header__logo z-50">
+                    <img class=""  src="../image/LOGO.png" alt="">
+                </div>
+                <ul class="header__nav">
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./home.html">LOCATIONS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <a href="" class="btn primarry">ORDER ONLINE</a>
+                </ul>
+                <div class="toggle__menu">
+                    <span></span>
+                    <span></span>
+                </div>
+                
+            </div>
+        </div>
+     </header>
+     <!-- ANNOUCEMENT -->
+      <section class="annoucement bg-tertiary">
+        <div class="container">
+            <div class="annoucement__wrapper py-3">
+                <p class="font-bold text-light text-center  lg:text-xl"><b>MICHI RAMEN</b> • TUESDAY - SUNDAY 11AM - MIDNIGHT • HAPPY HOUR 9PM-11PM </p>
+            </div>
+        </div>
+      </section>
+
+        <!-- ORDER -->
+       <section class="order bg-secondary">
+        <div class="container">
+            <div class="order__wrapper py-[5rem]">
+                <h2 class="text-tertiary font-bold text-[clamp(30px,5vw,40px)]  text-center">HOW TO ORDER AT MICHI</h2>
+
+                <div class="order_card flex flex-row items-center text-center lg:flex lg:flex-row lg:gap-6 lg:items-center lg:justify-center lg:px-[10rem]">
+                    <div class="order">
+                        <img  src="../image/ramen-step-1.png" alt="">
+                        <p class="font-economica text-xl font-bold ">PICK YOUR RAMEN</p>
+                        
+                    </div>
+                        <i class="fa-solid fa-chevron-right text-tertiary text-3xl"></i>
+                    <div class="order">
+                        <img src="../image/ramen-step-2.png" alt="">
+                        <p class="font-economica text-xl font-bold text-center mt-6">PICK YOUR BROTH</p>
+                    </div>
+                       <i class="fa-solid fa-chevron-right text-tertiary text-3xl"></i> 
+                    <div class="order">
+                        <img src="../image/ramen-step-3.png" alt="">
+                        <p class="font-economica text-xl font-bold mt-4 text-center">ADD TOPPINGS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- MENU RAMEN -->
+        <section class="menuRamen bg-menu bg-repeat relative py-[5rem]">
+            <div class="container">
+                <div class="menuRamen__title">
+                    <h2 class="text-light font-bold text-[clamp(30px,5vw,50px)] text-center py-[3rem]">RAMEN MENU</h2>
+                </div>
+                <div class="menuRamen__wrapper flex flex-col gap-[8rem] items-center justify-center lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-[5rem] lg:px-[5rem] lg:mb-[5rem]">
+                    
+                    <div class="ramen flex flex-col gap-[5rem]">
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">MICHI</h3>
+                            <p class="text-tertiary text-xl font-bold">$8.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">roasted nori</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">SHOYU TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img items-start">
+                                <img class="w-full mt-[-5rem]" src="../image/michi.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">VEGGIE</h3>
+                            <p class="text-tertiary text-xl font-bold">$7.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chives</li>
+                                <li class="text-white font-bold font-montserrat">sprouts and cabbage</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                 <p class="text-tertiary font-bold">+ egg-free Noddles</p>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">SHOYU SHIITAKE</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-full mt-[-5rem]" src="../image/Vegie.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">DIPPING</h3>
+                            <p class="text-tertiary text-xl font-bold">$8.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">shredded nori</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <li class="text-white font-bold font-montserrat">ground chashu</li>
+                                <li class="text-white font-bold font-montserrat">fresh garlic</li>
+                                <li class="text-white font-bold font-montserrat">fried onions</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">FISH TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-full mt-[-11.5rem]" src="../image/dipping.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">JUNGLE</h3>
+                            <p class="text-tertiary text-xl font-bold">$9.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">contains shellfish</li>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">bean sprouts</li>
+                                <li class="text-white font-bold font-montserrat">thai chiles</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <li class="text-white font-bold font-montserrat">toasted lemongrass</li>
+                                <li class="text-white font-bold font-montserrat">lime wedge</li>
+                                <li class="text-white font-bold font-montserrat">cilantro</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">LEMONGRASS TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-[17rem] mt-[-10.3rem] ml-[-3.5rem]" src="../image/jungle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ramen flex flex-col gap-[5rem] mt-[-5rem]">
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">SAPPORO</h3>
+                            <p class="text-tertiary text-xl font-bold">$9.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">bean sprouts</li>
+                                <li class="text-white font-bold font-montserrat">corn/butter</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">MISO TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-full mt-[-5rem]" src="../image/Saporo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">MEAT LOVERS</h3>
+                            <p class="text-tertiary text-xl font-bold">$10.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">SHOYU TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-[15rem] mt-[-3rem] ml-[-2rem]" src="../image/Meat Lover.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">TEXAS</h3>
+                            <p class="text-tertiary text-xl font-bold">$13.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">smoked BBQ pork ribs</li>
+                                <li class="text-white font-bold font-montserrat">vinegar slaw</li>
+                                <li class="text-white font-bold font-montserrat">red onions</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">Texas toast</li>
+                                <li class="text-white font-bold font-montserrat">jalapenos</li>
+                                <li class="text-white font-bold font-montserrat">pickle spear</li>
+                                <li class="text-white font-bold font-montserrat">spicy BBQ sauce</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">TOMATO TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-[13rem] mt-[-10rem] ml-[-.5rem]" src="../image/texas.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">SPECIAL</h3>
+                            <p class="text-tertiary text-xl font-bold">$13.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">smoked BBQ pork ribs</li>
+                                <li class="text-white font-bold font-montserrat">vinegar slaw</li>
+                                <li class="text-white font-bold font-montserrat">red onions</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">Texas toast</li>
+                                <li class="text-white font-bold font-montserrat">Jalapenos</li>
+                                <li class="text-white font-bold font-montserrat">pickle spear</li>
+                                <li class="text-white font-bold font-montserrat">spicy BBQ sauce</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">TOMATO TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-full mt-[-10rem]" src="../image/special.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- IMAGE -->
+         <div class="image">
+            <img class="w-full" src="../image/toppings.png" alt="">
+         </div>
+
+         <!-- RAMEN TOPPINGS -->
+          <section class="ramenToppings bg-secondary">
+            <div class="container">
+                <div class="ramenToppings__title text-center py-10">
+                    <h2 class="text-tertiary text-5xl lg:text-[5rem] font-bold">RAMEN TOPPINGS</h2>
+                    <div class="price flex flex-row justify-center gap-[5rem] mb-5 ">
+                        <h3 class="text-primary font-bold text-xl lg:text-3xl">BROTH & NOODLES</h3>
+                        <h3 class="font-bold text-xl lg:text-3xl">$6.50</h3>
+                    </div>
+                    <p class="text-footer font-bold mb-5">Great for kids or to build your own</p>
+                </div>
+                <div class="ramenToppings__wrapper grid grid-cols-2 gap-[5rem] lg:w-[800px] mx-auto">
+                        <div class="topping">
+                            <div class="topping__card">
+                                <div class="price flex flex-row gap-[6rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                        </div>
+                        <!-- second -->
+                         <div class="toppings">
+                             <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="topping__card">
+                                <div class="price flex flex-row justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                         </div>
+                
+            </div>
+          </section>
+
+           <!-- IMAGE -->
+         <div class="image">
+            <img class="w-full" src="../image/desserts.png" alt="">
+         </div>
+
+         <!-- DESSERTS -->
+           <section class="dessert bg-secondary">
+            <div class="container">
+                <div class="dessert__title text-center py-10">
+                    <h2 class="text-tertiary text-5xl lg:text-[5rem] font-bold">SIDES & DESSERT</h2>
+                    
+                </div>
+                <div class="dessert__wrapper grid grid-cols-2 gap-[5rem] lg:w-[800px] mx-auto">
+                        <div class="desserts">
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                        </div>
+
+
+
+                        <!-- second -->
+                         <div class="dessertss">
+                             <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="desserts__card">
+                                <div class="price flex flex-row gap-[4rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                         </div>
+                
+            </div>
+          </section>
+
+            <!-- IMAGE -->
+         <div class="image">
+            <img class="w-full" src="../image/DRINKS.png" alt="">
+         </div>
+
+         <!-- DRINKS -->
+          <section class="drinks">
+            <div class="container">
+                <div class="drinks__title flex flex-col gap-6 py-5">
+                    <h2 class="text-tertiary text-5xl lg:text-[5rem] font-bold text-center">DRINKS</h2>
+                    <h3 class="text-footer font-bold text-xl lg:text-4xl text-center">JOIN US FOR HAPPY HOUR</h3>
+                    <p class="text-footer font-semibold text-center mb-6">3-6PM / 9-11PM • $1 OFF ALL BEER | WEDNESDAYS 5-11PM • $2 SAKE CAREFFES</p>
+                </div>
+                <div class="drinks__wrapper">
+                    <div class="drinks__tab">
+                        <ul class="drink">
+                            <li class="drink__nav active" id="tabs-1">BEER</li>
+                            <li class="drink__nav" id="tabs-2">SAKE</li>
+                            <li class="drink__nav" id="tabs-3">WINE</li>
+                            <li class="drink__nav" id="tabs-4">TEA</li>
+                        </ul>
+                    </div>
+                    <div class="drinks__content">
+                        <!-- BEER -->
+                          <div class="menu__wrapper active" id="tabs-1-content">
+                        <div class="beers">
+                            <p class="text-center text-2xl mb-10 font-bold font-montserrat text-footer">DRAFT</p>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            
+                        </div>
+
+
+
+                        <!-- second -->
+                         <div class="beerss">
+                            <p class="text-center text-2xl mb-10 font-bold font-montserrat text-footer">JAPANESE BOTTLES</p>
+                             <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                         </div>
+                
+                          </div>
+                          <!-- SAKE -->
+                            <div class="menu__wrapper" id="tabs-2-content">
+                        <div class="beers">
+                            <p class="text-center text-2xl mb-10 font-bold font-montserrat text-footer">DRAFT</p>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            
+                        </div>
+
+
+
+                        <!-- second -->
+                         <div class="beerss">
+                            <p class="text-center text-2xl mb-10 font-bold font-montserrat text-footer">JAPANESE BOTTLES</p>
+                             <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                         </div>
+                
+                          </div>
+                          <!-- WINE -->
+                            <div class="menu__wrapper" id="tabs-3-content">
+                        <div class="beers">
+                            <p class="text-center text-2xl mb-10 font-bold font-montserrat text-footer">DRAFT</p>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            
+                        </div>
+
+
+
+                        <!-- second -->
+                         <div class="beerss">
+                            <p class="text-center text-2xl mb-10 font-bold font-montserrat text-footer">JAPANESE BOTTLES</p>
+                             <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                         </div>
+                
+                          </div>
+                          <!-- TEA -->
+                            <div class="menu__wrapper" id="tabs-4-content">
+                        <div class="beers">
+                            <p class="text-center text-2xl mb-10 font-bold font-montserrat text-footer">DRAFT</p>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            
+                        </div>
+
+
+
+                        <!-- second -->
+                         <div class="beerss">
+                            <p class="text-center text-2xl mb-10 font-bold font-montserrat text-footer">JAPANESE BOTTLES</p>
+                             <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                            <div class="beers__card">
+                                <div class="price flex flex-row gap-[5rem] lg:justify-between mb-3">
+                                    <h3 class="text-footer font-bold font-montserrat">AJITAMA</h3>
+                                    <h3 class="text-footer font-bold font-montserrat">$1.00</h3>
+                                </div>
+                                <p class="text-footer font-montserrat font-bold mb-[5rem]">Marinated soft-boiled egg</p>
+                            </div>
+                         </div>
+                
+                          </div>
+                       
+                    </div>
+
+                </div>
+            </div>
+          </section>
+        
+          <!-- FOOTER -->
+         <footer class="footer bg-footer">
+            <div class="container">
+                <div class="footer__wrapper flex flex-col items-center justify-center py-5 lg:flex lg:flex-row lg:gap-[15rem] lg:justify-center lg:py-[5rem]">
+                    <div class="social flex flex-row gap-6 mb-5">
+                        <a href=""><i class="fa-brands fa-yelp text-3xl text-primary"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter text-3xl text-primary"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f text-3xl text-primary"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram text-3xl text-primary"></i></a>
+                    </div>
+
+                    <div class="contact flex flex-col items-center gap-6 lg:flex lg:flex-row lg:gap-[5rem]">
+                        <p class="text-light font-bold lg:text-xl">(512) 386-1908 • 6519 N. Lamar, Austin TX 78752</p>
+                        <a href="" class="btn primarry">ORDER ONLINE</a>
+                    </div>
+                </div>
+            </div>
+         </footer>
+          <!-- SCRIPT -->
+           <script src="../js/menuTabs.js"></script>
+           <script src="../js/toggleMenu.js"></script>
+</body>
+</html>

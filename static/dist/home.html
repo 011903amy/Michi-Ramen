@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <!-- HEADER -->
+     <header class="header bg-wood relative">
+        <div class="container">
+            <div class="header__wrapper flex flex-col gap-6 pt-5  lg:flex lg:flex-row lg:justify-between lg:items-center lg:pt-5 lg:px-5 lg:block">
+                <div class="header__logo z-50">
+                    <img class="" src="../image/LOGO.png" alt="">
+                </div>
+                <ul class="header__nav">
+                    <li><a href="./menu.html">MENU</a></li>
+                    <li><a href="./home.html">LOCATIONS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <a href="" class="btn primarry">ORDER ONLINE</a>
+                </ul>
+                <div class="toggle__menu">
+                    <span></span>
+                    <span></span>
+                </div>
+                
+            </div>
+        </div>
+     </header>
+
+     <!-- BANNER -->
+      <section class="banner bg-wood h-screen">
+        <div class="container">
+            <div class="banner__wrapper ">
+                <div class="banner__title py-5">
+                   <h1 class="text-light text-center text-[clamp(100px,5vw,100px)] font-montserrat font-bold">MICHI RAMEN</h1>
+                <p class="text-light text-center text-xl font-montserrat font-bold">TUESDAY - SUNDAY 11AM - MIDNIGHT • HAPPY HOUR 9PM-11PM</p> 
+                </div>
+                <div class="banner__img flex flex-col items-center mt-[22.2rem] lg:mt-[13.6rem]">
+                    <img src="../image/hero-image-2.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+      </section>
+
+      <!-- ORDER -->
+       <section class="order bg-secondary">
+        <div class="container">
+            <div class="order__wrapper py-[5rem]">
+                <h2 class="text-tertiary font-bold text-[clamp(30px,5vw,40px)]  text-center">HOW TO ORDER AT MICHI</h2>
+
+                <div class="order_card flex flex-row items-center text-center lg:flex lg:flex-row lg:gap-6 lg:items-center lg:justify-center lg:px-[10rem]">
+                    <div class="order">
+                        <img  src="../image/ramen-step-1.png" alt="">
+                        <p class="font-economica text-xl font-bold ">PICK YOUR RAMEN</p>
+                        
+                    </div>
+                        <i class="fa-solid fa-chevron-right text-tertiary text-3xl"></i>
+                    <div class="order">
+                        <img src="../image/ramen-step-2.png" alt="">
+                        <p class="font-economica text-xl font-bold text-center mt-6">PICK YOUR BROTH</p>
+                    </div>
+                       <i class="fa-solid fa-chevron-right text-tertiary text-3xl"></i> 
+                    <div class="order">
+                        <img src="../image/ramen-step-3.png" alt="">
+                        <p class="font-economica text-xl font-bold mt-4 text-center">ADD TOPPINGS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- MENU RAMEN -->
+        <section class="menuRamen bg-menu bg-repeat relative py-[5rem]">
+            <div class="container">
+                <div class="menuRamen__title">
+                    <h2 class="text-light font-bold text-[clamp(30px,5vw,50px)] text-center py-[3rem]">RAMEN MENU</h2>
+                </div>
+                <div class="menuRamen__wrapper flex flex-col gap-[8rem] items-center justify-center lg:grid lg:grid-cols-2 lg:place-items-center lg:gap-[5rem] lg:px-[5rem] lg:mb-[5rem]">
+                    
+                    <div class="ramen flex flex-col gap-[5rem]">
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">MICHI</h3>
+                            <p class="text-tertiary text-xl font-bold">$8.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">roasted nori</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">SHOYU TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img items-start">
+                                <img class="w-full mt-[-5rem]" src="../image/michi.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">VEGGIE</h3>
+                            <p class="text-tertiary text-xl font-bold">$7.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chives</li>
+                                <li class="text-white font-bold font-montserrat">sprouts and cabbage</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                 <p class="text-tertiary font-bold">+ egg-free Noddles</p>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">SHOYU SHIITAKE</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-full mt-[-5rem]" src="../image/Vegie.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">DIPPING</h3>
+                            <p class="text-tertiary text-xl font-bold">$8.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">shredded nori</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <li class="text-white font-bold font-montserrat">ground chashu</li>
+                                <li class="text-white font-bold font-montserrat">fresh garlic</li>
+                                <li class="text-white font-bold font-montserrat">fried onions</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">FISH TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-full mt-[-11.5rem]" src="../image/dipping.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">JUNGLE</h3>
+                            <p class="text-tertiary text-xl font-bold">$9.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">contains shellfish</li>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">bean sprouts</li>
+                                <li class="text-white font-bold font-montserrat">thai chiles</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <li class="text-white font-bold font-montserrat">toasted lemongrass</li>
+                                <li class="text-white font-bold font-montserrat">lime wedge</li>
+                                <li class="text-white font-bold font-montserrat">cilantro</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">LEMONGRASS TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-[17rem] mt-[-10.3rem] ml-[-3.5rem]" src="../image/jungle.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ramen flex flex-col gap-[5rem] mt-[-5rem]">
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">SAPPORO</h3>
+                            <p class="text-tertiary text-xl font-bold">$9.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">bean sprouts</li>
+                                <li class="text-white font-bold font-montserrat">corn/butter</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">MISO TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-full mt-[-5rem]" src="../image/Saporo.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">MEAT LOVERS</h3>
+                            <p class="text-tertiary text-xl font-bold">$10.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">chashu slices</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">woodear mushrooms</li>
+                                <li class="text-white font-bold font-montserrat">green onions</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">SHOYU TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-[15rem] mt-[-3rem] ml-[-2rem]" src="../image/Meat Lover.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">TEXAS</h3>
+                            <p class="text-tertiary text-xl font-bold">$13.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">smoked BBQ pork ribs</li>
+                                <li class="text-white font-bold font-montserrat">vinegar slaw</li>
+                                <li class="text-white font-bold font-montserrat">red onions</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">Texas toast</li>
+                                <li class="text-white font-bold font-montserrat">jalapenos</li>
+                                <li class="text-white font-bold font-montserrat">pickle spear</li>
+                                <li class="text-white font-bold font-montserrat">spicy BBQ sauce</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">TOMATO TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-[13rem] mt-[-10rem] ml-[-.5rem]" src="../image/texas.png" alt="">
+                            </div>
+                        </div>
+                        <div class="ramen__card flex flex-row gap-6 items-center">
+                            <div class="ramen_card--details">
+                                <h3 class="text-5xl font-economica font-bold text-footer mb-5">SPECIAL</h3>
+                            <p class="text-tertiary text-xl font-bold">$13.50</p>
+                            <ul>
+                                <li class="text-white font-bold font-montserrat">smoked BBQ pork ribs</li>
+                                <li class="text-white font-bold font-montserrat">vinegar slaw</li>
+                                <li class="text-white font-bold font-montserrat">red onions</li>
+                                <li class="text-white font-bold font-montserrat">mayu oil</li>
+                                <li class="text-white font-bold font-montserrat">Texas toast</li>
+                                <li class="text-white font-bold font-montserrat">Jalapenos</li>
+                                <li class="text-white font-bold font-montserrat">pickle spear</li>
+                                <li class="text-white font-bold font-montserrat">spicy BBQ sauce</li>
+                                <p class="font-coming_soon text-footer font-bold text-xl mt-5">TOMATO TONKATSU</p>
+                            </ul>
+                            </div>
+                            <div class="ramen__card--img">
+                                <img class="w-full mt-[-10rem]" src="../image/special.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="absolute bottom-20 right-[55rem]">
+                    <a href="menu.html" target="_blank" class="btn secondaryy">VIEW OUR FULL MENU</a>
+                </div>
+            </div>
+        </section>
+       <!-- HAPPY HOUR -->
+        <section class="happyHour bg-secondary pt-5 pb-[15rem] lg:py-[15rem]">
+            <div class="container">
+                <div class="happyHour__wrapper">
+                    <h2 class="text-tertiary font-bold text-center text-5xl">JOIN US FOR HAPPY HOUR</h2>
+                    <p class="text-primary font-bold text-center text-2xl mt-5 mb-[5rem] ">3-6PM / 9-11PM • $1 OFF ALL BEER | WEDNESDAY 5-11PM • $2 SAKE CARAFFES</p>
+                </div>
+            </div>
+            <div class="happy__img flex flex-row lg:flex mb-[-15rem]">
+                <img class=" w-[10.5rem] lg:w-full" src="../image/img1.png" alt="">
+                <img class=" w-[10.5rem] lg:w-full" src="../image/img2.png" alt="">
+                <img class=" w-[10.5rem] lg:w-full" src="../image/img3.png" alt="">
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+         <footer class="footer bg-footer">
+            <div class="container">
+                <div class="footer__wrapper flex flex-col items-center justify-center py-5 lg:flex lg:flex-row lg:gap-[15rem] lg:justify-center lg:py-[5rem]">
+                    <div class="social flex flex-row gap-6 mb-5">
+                        <a href=""><i class="fa-brands fa-yelp text-3xl text-primary"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter text-3xl text-primary"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f text-3xl text-primary"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram text-3xl text-primary"></i></a>
+                    </div>
+
+                    <div class="contact flex flex-col items-center gap-6 lg:flex lg:flex-row lg:gap-[5rem]">
+                        <p class="text-light font-bold lg:text-xl">(512) 386-1908 • 6519 N. Lamar, Austin TX 78752</p>
+                        <a href="" class="btn primarry">ORDER ONLINE</a>
+                    </div>
+                </div>
+            </div>
+         </footer>
+
+
+         <!-- SCRIPT -->
+           <script src="../js/menuTabs.js"></script>
+           <script src="../js/toggleMenu.js"></script>
+</body>
+</html>

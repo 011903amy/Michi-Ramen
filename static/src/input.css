@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header__nav {
+    @apply bg-footer flex flex-col right-[-100%] items-center top-0 w-full h-screen  absolute pt-[15rem] gap-6 lg:flex lg:flex-row lg:gap-[5rem] lg:items-start  lg:block lg:bg-transparent lg:pt-0 lg:left-[50rem] lg:top-[3rem] z-40 duration-700 ease-in-out;
+  }
+  .header__nav.open {
+    @apply right-0 duration-700 z-40 ease-in-out;
+  }
+  .header__nav li a {
+    @apply text-white font-montserrat font-bold;
+  }
+  .header__nav li {
+    @apply py-5;
+  }
+  .toggle__menu {
+    @apply z-50 absolute top-[4rem] right-9 lg:hidden duration-700 ease-in-out;
+  }
+  .toggle__menu span {
+    @apply content-[*] bg-primary w-10 h-2 rounded-lg block mb-1;
+  }
+  .toggle__menu.open span:first-child {
+    @apply rotate-[405deg] duration-700 translate-y-[0.5rem] ease-in-out;
+  }
+  .toggle__menu.open span:last-child {
+    @apply rotate-[-405.5deg] duration-700 translate-y-[-0.3rem];
+  }
+
+  .drink {
+    @apply grid grid-cols-4 lg:flex lg:flex-row gap-[5rem] text-xl text-center lg:text-5xl text-footer font-montserrat justify-center my-[5rem] font-semibold;
+  }
+  .drink li {
+    @apply cursor-pointer;
+  }
+  .drink li.active {
+    @apply border-b border-b-4 border-primary text-primary;
+  }
+  .menu__wrapper {
+    @apply grid grid-cols-2 gap-5 lg:w-[800px] mx-auto hidden;
+  }
+  .menu__wrapper.active {
+    @apply block grid grid-cols-2 lg:gap-[5rem] lg:w-[800px] lg:mx-auto;
+  }
+
+  .price {
+    @apply text-[1rem] lg:text-3xl;
+  }
+  .topping__card p {
+    @apply text-[.8rem];
+  }
+  .desserts__card p {
+    @apply text-[.8rem];
+  }
+  .beers__card p {
+    @apply text-[.8rem];
+  }
+
+  .btn {
+    @apply py-1 px-2 bg-transparent border-transparent rounded-md shadow-[0_8px_24px_-15px_rgba(149,157,165,0.2)];
+  }
+
+  .btn.primarry {
+    @apply bg-primary border border-primary text-center font-bold text-light;
+  }
+  .btn.secondaryy {
+    @apply bg-footer border border-footer text-center font-bold text-light;
+  }
+}
